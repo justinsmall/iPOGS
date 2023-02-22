@@ -11,3 +11,6 @@ Clone this repository to your account, then create your own branch to make chang
 ## Reproducing the environment
 `conda env create -f envs/environment.yml`
 `conda activate ipogs`
+
+## MOCutils
+To use the AMOC notebooks, one will also need to install MOCutils as described here: https://github.com/sgyeager/POP_MOC#installing-mocutils-used-in-the-jupyter-notebooks
