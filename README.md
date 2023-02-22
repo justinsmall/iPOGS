@@ -8,10 +8,6 @@ The iPOGS diagnostics webpage with CVDP diagnostics as well as additional diagno
 Clone this repository to your account, then create your own branch to make changes in:
 `git checkout -b <nameofyourbranch>`
 
-## Checklist for repository
-- [ ] Update the environment.yml file in include the required libraries/packages
-- [ ] Include analysis code/notebooks!
-
 ## Reproducing the environment
 `conda env create -f envs/environment.yml`
-`conda activate environment_name`
+`conda activate ipogs`
