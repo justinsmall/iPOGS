@@ -11,6 +11,8 @@ Clone this repository to your account, then create your own branch to make chang
 ## Reproducing the environment
 `conda env create -f envs/environment.yml`
 `conda activate ipogs`
+To use the MOCutils, a user will need to clone the POP_MOC repository (https://github.com/sgyeager/POP_MOC) and install MOCutils by going to the POP_MOC directory and running `pip install -e . --user`.  
+At the moment, there are some merged [pop-tools](https://github.com/NCAR/pop-tools) PRs that greatly increase the speed of running some of these notebooks. It is recommended to uninstall pop-tools, clone the repo, and then install the developer version with `pip install -e .` from within the `pop-tools` directory.
 
 ## MOCutils
 To use the AMOC notebooks, one will also need to install MOCutils as described here: https://github.com/sgyeager/POP_MOC#installing-mocutils-used-in-the-jupyter-notebooks
