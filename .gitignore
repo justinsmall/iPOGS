@@ -130,3 +130,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+MOCutils/
+notebooks/AMOCsig_26_5_ts_RCPs.png
+notebooks/original_MOCsigma.ipynb
+notebooks/original_MOCz.ipynb
+notebooks/pop_MOCsig2_0.1deg.TEST.ipynb
+notebooks/pop_MOCsig2_1deg_dask_CESM2LE.50mem.ipynb
